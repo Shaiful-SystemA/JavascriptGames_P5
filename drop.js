@@ -9,6 +9,8 @@ function Drop(){
     this.len=map(this.z,0,20,10,20);
     this.yspeed=map(this.z,0,20,10,20);
 
+
+    // random the speed and eight of the rain
     this.fall = function(){
 
         this.y = this.y + this.yspeed;
